@@ -11,6 +11,7 @@ class Car extends React.Component {
       year: 1964
     };
   }
+
   changeColor = () => {
     this.setState({ color: "blue" });
   };
